@@ -1,17 +1,12 @@
 # Forecasting-System-with-User-Interface-for-Multiple-Sectors
 
-Objective
-Develop a complete forecasting system that not only implements and compares different time series
+## Project Overview
+This project develops a comprehensive forecasting system that implements and compares various time series models such as ARIMA, ANN, and Hybrid ARIMA-ANN across multiple sectors, including finance, energy, and environment. It features a user-friendly front-end interface for data visualization and forecast interaction.
 
-models (ARIMA, ANN, Hybrid ARIMA-ANN) across various sectors but also includes a user-friendly front-
-end interface for visualizing data and forecasts.
+## Data Source
+For dataset we have used the energy sector dataset that tells the hourly energy consumption data.
 
-Data Sources and Preprocessing:
-• Finance Sector: Monthly stock prices from the S&P 500 index.
-• Energy Sector: Hourly energy consumption data.
-• Environmental Sector: Daily atmospheric CO2 concentrations.
-
-Preprocessing Steps:
+##Preprocessing Steps
 • Cleaning: Identify and impute or remove missing values.
 • Normalization/Standardization: Scale the data to a uniform range.
 • Stationarization: Apply differencing and logarithmic transformations as necessary to achieve
